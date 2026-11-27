@@ -1,6 +1,6 @@
 # add-headers
 
-## Batch-injects SPDX license headers into all supported source files in a repository.
+Batch-injects SPDX license headers into all supported source files in a repository.
 
 ### Usage
 
@@ -21,17 +21,22 @@ A header.txt file in the target repo root with exactly two lines:
 
 Extension	Comment style
 
-.py, .sh, .ps1, .service, .toml, .yml, .yaml, .env	# SPDX-...
-.ts, .tsx, .js, .jsx, .astro, .css, .scss	// SPDX-...
-.html, .md	<!-- SPDX-... -->
+	.py, .sh, .ps1, .service, .toml, .yml, .yaml, .env	# SPDX-...
+	.ts, .tsx, .js, .jsx, .astro, .css, .scss	// SPDX-...
+	.html, .md	<!-- SPDX-... -->
 
 Skipped
 
-Binary files (.png, .jpg, .webp, .ico, .mp4, .woff, .woff2, .bin)
-.json
-Directories: .git, node_modules, __pycache__, models, outputs
+	Binary files (.png, .jpg, .webp, .ico, .mp4, .woff, .woff2, .bin)
+	.json
+	Directories: .git, node_modules, __pycache__, models, outputs
+
 Behaviour
 
-Idempotent — files already containing SPDX-License-Identifier are skipped.
+Idempotent — files already containing SPDX-License-Identifier are skipped. Prompts for confirmation before writing anything.
 
-Prompts for confirmation before writing anything.
+-----------------
+Fell free to fork and PR to take it further.
+
+Licence: MIT
+Contace: dev@betakontext.de | Christoph Medicus

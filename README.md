@@ -36,7 +36,9 @@ Behaviour
 Idempotent — files already containing SPDX-License-Identifier are skipped. Prompts for confirmation before writing anything.
 
 -----------------
-Fell free to fork and PR to take it further.
 
 Licence: MIT
-Contace: dev@betakontext.de | Christoph Medicus
+
+Fell free to fork and PR to take it further.
+
+Contact: dev@betakontext.de | Christoph Medicus
